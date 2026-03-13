@@ -144,7 +144,7 @@ dataset/
 ## Clone the Repository
 
 ```
-git clone <>
+git clone <https://github.com/Tanupvats/mask-temp-monitor.git>
 cd mask-temp-monitor
 ```
 
@@ -260,22 +260,6 @@ python runtime/test_serial.py
 
 ---
 
-# Arduino Code
-
-Upload the Arduino sketch located at:
-
-```
-arduino/mlx90614_temperature_sensor.ino
-```
-
-This program:
-
-- Initializes I2C communication  
-- Detects connected sensors  
-- Sends temperature data via Serial
-
----
-
 # Fever Detection Logic
 
 The system flags fever if temperature exceeds **37.5°C**.
@@ -323,4 +307,5 @@ Automatic access control system
 # Author
 
 **Tanup Vats**
+
 

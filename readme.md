@@ -31,9 +31,9 @@ This type of system can be used for:
 
 # System Demo
 
-Below is a screenshot of the system detecting a face mask and displaying the temperature.
+Below is a demo of the system detecting a face mask and displaying the temperature, click on the demo to see the longer version.
 
-[![Watch Demo](mask_temp_detection.png)](https://drive.google.com/file/d/1Le8rTDF2wX4iauqJGVIYcLUZ12OClhCC/view?usp=drive_link)
+[![Watch Demo](demo.gif)](https://drive.google.com/file/d/1Le8rTDF2wX4iauqJGVIYcLUZ12OClhCC/view?usp=drive_link)
 
 ---
 

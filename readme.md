@@ -283,8 +283,6 @@ Automatic fever detection
 
 ---
 
----
-
 # Applications
 
 Public health monitoring  

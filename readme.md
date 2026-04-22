@@ -4,9 +4,7 @@ A real-time computer vision and embedded system that detects whether a person is
 
 This project integrates **Deep Learning**, **Computer Vision**, and **Embedded Systems** to create a real-time safety monitoring solution.
 
----
-
-# Project Overview
+## Project Overview
 
 This system performs two primary tasks simultaneously:
 

@@ -27,7 +27,7 @@ This type of system can be used for:
 
 ---
 
-# System Demo
+## System Demo
 
 Below is a demo of the system detecting a face mask and displaying the temperature, click on the demo to see the longer version.
 
@@ -35,7 +35,7 @@ Below is a demo of the system detecting a face mask and displaying the temperatu
 
 ---
 
-# Hardware Architecture
+## Hardware Architecture
 
 The temperature sensing part uses the **MLX90614 Non-contact IR Temperature Sensor** connected to an **Adafruit Metro 328 (ATmega328 microcontroller)**.
 
@@ -43,7 +43,7 @@ The microcontroller sends temperature readings to the Python program through **S
 
 ---
 
-# Circuit Diagram
+## Circuit Diagram
 
 The following diagram shows how the **MLX90614 temperature sensor** is connected to the microcontroller.
 
@@ -54,7 +54,7 @@ The following diagram shows how the **MLX90614 temperature sensor** is connected
 
 ---
 
-# Hardware Components
+## Hardware Components
 
 | Component | Description |
 |--------|-------------|
@@ -66,7 +66,7 @@ The following diagram shows how the **MLX90614 temperature sensor** is connected
 
 ---
 
-# Sensor Pin Connections
+## Sensor Pin Connections
 
 | Sensor Pin | Microcontroller Pin |
 |-----------|---------------------|
@@ -77,7 +77,7 @@ The following diagram shows how the **MLX90614 temperature sensor** is connected
 
 ---
 
-# Software Architecture
+## Software Architecture
 
 The system consists of the following modules:
 
@@ -95,7 +95,7 @@ Step5:Overlay Results on Video Stream
 
 ---
 
-# Deep Learning Model
+## Deep Learning Model
 
 The mask detection model is based on **MobileNetV2**, a lightweight convolutional neural network designed for real-time applications.
 
@@ -122,7 +122,7 @@ training/train.py
 
 ---
 
-# Dataset Structure
+## Dataset Structure
 
 ```
 dataset/
@@ -137,7 +137,7 @@ dataset/
 ```
 
 
-# Installation
+## Installation
 
 ## Clone the Repository
 
@@ -147,7 +147,7 @@ cd mask-temp-monitor
 ```
 
 
-# Install Dependencies
+## Install Dependencies
 
 ```
 pip install -r requirements.txt
@@ -162,7 +162,7 @@ Dependencies include:
 
 ---
 
-# Training the Mask Detection Model
+## Training the Mask Detection Model
 
 Run the training script:
 
@@ -187,7 +187,7 @@ training_plot.png
 
 ---
 
-# Evaluating the Model
+## Evaluating the Model
 
 Run:
 
@@ -208,7 +208,7 @@ confusion_matrix.png
 
 ---
 
-# Running the Real-Time System
+## Running the Real-Time System
 
 Make sure the Arduino is connected and the serial port is correct.
 
@@ -240,7 +240,7 @@ The system will:
 
 ---
 
-# Serial Communication
+## Serial Communication
 
 The Python program receives temperature readings from the Arduino via serial communication.
 
@@ -258,7 +258,7 @@ python runtime/test_serial.py
 
 ---
 
-# Fever Detection Logic
+## Fever Detection Logic
 
 The system flags fever if temperature exceeds **37.5°C**.
 
@@ -270,7 +270,7 @@ Mask: 99.9% | Temp: 38.1°C (FEVER)
 
 ---
 
-# Key Features
+## Key Features
 
 Real-time face detection  
 Mask classification using deep learning  
@@ -281,7 +281,7 @@ Automatic fever detection
 
 ---
 
-# Applications
+## Applications
 
 Public health monitoring  
 Hospital screening systems  
@@ -291,7 +291,7 @@ Smart building entry systems
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 Edge deployment using Raspberry Pi  
 Integration with thermal cameras  
@@ -300,7 +300,7 @@ Automatic access control system
 
 ---
 
-# Author
+## Author
 
 **Tanup Vats**
 
